@@ -1,0 +1,170 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-11-11 21:36:19
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-11-12 23:26:23
+*/
+header{
+	width: 100%;
+	height: 1rem;
+	background: #1296db;
+	display: flex;
+}
+.top{
+	width: 100%;
+	height: 1rem;
+	background: #1296db;
+	display: flex;
+}
+.last{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #fff;
+	border-radius: 50%;
+	margin-top: 0.18rem;
+	margin-left: 0.42rem;
+	font-size: 0.2rem;
+	color: #333;
+	font-size: 0.3rem;
+	padding-left: 0.07rem;
+}
+.last i{
+	color: #1296db;
+	font-size: 0.4rem;
+	line-height: 0.62rem;
+	text-align: center;
+
+}
+.zhifu{
+	width: 2.9rem;
+	height: 0.9rem;
+	/* background: pink; */
+	text-align: center;
+	margin-left: 2.14rem;
+	padding-top: 0.13rem;
+}
+.zhifu .chinese{
+	font-size: 0.3rem;
+	color: #fff;
+}
+.zhifu .english{
+	font-size: 0.2rem;
+	color: rgba(255, 255, 255, 0.5);
+}
+.await{
+	width: 100%;
+	height: 2.52rem;
+	/* background: yellow; */
+	margin-top: 0.34rem;
+	padding: 0 0.48rem;
+}
+.await .await1{
+	width: 100%;
+	height: 2.22rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	/* margin-left: 1.2rem; */
+	padding-top: 0.24rem;
+	padding-left: 0.25rem;
+	box-shadow: 0.01rem 0.01rem 0.2rem 0.1rem #c1c1c1;
+	display: flex;
+}
+.await .await1 .picture{
+	width: 1.72rem;
+	height: 1.72rem;
+	background: #fff;
+}
+.await .await1 .picture img{
+	width: 1.72rem;
+	height: 1.72rem;
+}
+.await .await1 .character{
+	width: 4.34rem;
+	height: 1.72rem;
+	/* background: pink; */
+	margin-left: 0.48rem;
+}
+.await .await1 .character .character1 p{
+	font-size: 0.3rem;
+	color: #a1a3a4;
+}
+.await .await1 .character .recur{
+	width: 100%;
+	height: 0.78rem;
+	/* background: orange; */
+	display: flex;
+	padding-top: 0.3rem;
+}
+.await .await1 .character .recur .recur1{
+	width: 1.88rem;
+	height: 0.48rem;
+	background: #1296db;
+	border-radius: 0.24rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	margin-right: 0.34rem;
+}
+.await .await1 .character .recur .recur2{
+	width: 1.88rem;
+	height: 0.48rem;
+	background: #1296db;
+	border-radius: 0.24rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+}
+.recommend{
+	width: 100%;
+	height: 0.8rem;
+	/* background: red; */
+	margin-top: 0.6rem;
+	padding: 0 0.48rem;
+	margin-bottom: 0.5rem;
+}
+.recommend .rec{
+	font-size: 0.35rem;
+	color: #196dc3;
+}
+.recommend .rec1{
+	font-size: 0.35rem;
+	color: #196dc3;
+	line-height: 0.3rem;
+}
+.moer{
+	width: 100%;
+	height: 8.54rem;
+	/* background: pink; */
+	padding: 0 0.48rem;
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 0.05rem solid #c1c1c1;
+}
+.moer .adv{
+	width: 3.18rem;
+	height: 3.58rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	margin-left: 0.4rem;
+	background-image: url('../img/tea.jpg');
+	background-size: 3.18rem 2.38rem;
+	background-repeat: no-repeat;
+	font-size: 0.3rem;
+	padding-top: 2.4rem;
+	box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #75c2ea;
+	margin-right: 0.6rem;
+}
+.moer .adv .tea{
+	width: 2rem;
+	border-bottom: 0.05rem dashed #c1c1c1;
+}
+.moer .adv .how{
+	font-size: 0.35rem;
+	font-weight: bold;
+	color: red;
+	margin-left: 1.84rem;
+	line-height: 0.2rem;
+}
+.moer .adv .how span{
+	font-size: 0.25rem;
+}

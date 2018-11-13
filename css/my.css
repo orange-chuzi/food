@@ -1,0 +1,231 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-11-12 13:17:34
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-11-12 21:51:23
+*/
+header{
+	width: 100%;
+	height: 1.74rem;
+	background: #1296db;
+	display: flex;
+	padding: 0 0.24rem;
+}
+header .set{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #fff;
+	border-radius: 50%;
+	line-height: 0.2rem;
+	margin-top: 0.24rem;
+	margin-left: 0.3rem;
+}
+header .set i{
+	text-align: center;
+	font-size: 0.45rem;
+	margin-left: 0.08rem;
+}
+header .set1{
+	font-size: 0.4rem;
+	color: #fff;
+	text-align: center;
+	margin-left: 1.5rem;
+	margin-top: 0.24rem;
+}
+header .set1 h5{
+	font-weight: lighter;
+}
+header .set1 h6{
+	font-size: 0.2rem;
+	color: rgba(255, 255, 255, 0.7);
+	font-weight: lighter;
+}
+header .set2{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #fff;
+	border-radius: 50%;
+	line-height: 0.3rem;
+	margin-left: 1.65rem;
+	margin-top: 0.24rem;
+	position: relative;
+}
+header .set2 i{
+	text-align: center;
+	font-size: 0.6rem;
+}
+header .set2 p{
+	width: 0.4rem;
+	height: 0.26rem;
+	background: #f7a398;
+	border-radius: 0.13rem;
+	border: 0.01rem solid #fff;
+	color: #fff;
+	font-size: 0.25rem;
+	text-align: center;
+	position: absolute;
+	top: -0.1rem;
+	left: -0.1rem;
+
+}
+.sub{
+	width: 100%;
+	height: 100%;
+	/* background: #ff6700; */
+	padding: 0 0.24rem;
+	position: relative;
+}
+.sub .tou{
+	width: 1.48rem;
+	height: 1.48rem;
+	background: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: -0.75rem;
+	left: 3rem;
+	background-image: url('../img/a touxiang.jpg');
+	background-size: 100%;
+}
+.sub .message{
+	width: 100%;
+	height: 1.5rem;
+	/* background: red; */
+	text-align: center;
+	padding-top: 0.7rem;
+}
+.sub .message h3{
+	font-size: 0.35rem;
+	color: #333;
+}
+.sub .message h4{
+	font-size: 0.25rem;
+	color: #c1c1c1;
+}
+.sub .silt{
+	width: 100%;
+	height: 1.5rem;
+	background: #fff;
+	margin-top: 0.2rem;
+	padding: 0 0.24rem;
+	padding-top: 0.01rem;
+	line-height: 0.35rem;
+	position: relative;
+	box-shadow: 0 0.02rem 0.1rem 0.01rem #c1c1c1;
+	border-radius: 0.2rem
+}
+.sub .silt .xingxing{
+	color: yellow;
+	font-size: 0.4rem;
+	margin-left: 0.58rem;
+	/* text-shadow: 1rem 1rem 1rem 1rem red； */
+}
+.sub .silt .zi{
+	font-size: 0.35rem;
+	margin-left: 0.58rem;
+	line-height: 0.6rem;
+}
+.sub .silt i{
+	color: #1296db;
+}
+.sub .silt .lianxi{
+	font-size: 0.35rem;
+	margin-left: 0.58rem;
+	line-height: 0.5rem;
+}
+.silt .icon-xiayibu{
+	font-size: 0.6rem;
+	position: absolute;
+	top: 0.6rem;
+	right: 0.3rem;
+}
+.sub .list .wallet{
+	width: 100%;
+	height: 0.79rem;
+	/* background: pink; */
+	margin-top: 0.3rem;
+	border-radius: 0.1rem;
+	box-shadow: 0.01rem 0.01rem 0.01rem 0.02rem #abdaf2;
+	position: relative;
+	display: flex;
+} 
+.sub .list .wallet .ten{
+	width: 0.62rem;
+	height: 0.36rem;
+	background: #f7a398;
+	border-radius: 0.18rem;
+	font-size: 0.3rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.35rem;
+	position: absolute;
+	top: 0.2rem;
+	right: 0.4rem;
+}
+.sub .list .wallet img{
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-top: 0.08rem;
+	margin-left: 0.5rem;
+}
+.sub .list .wallet i{
+	font-size: 0.6rem;
+	line-height: 0.85rem;
+	margin-left: 0.6rem;
+}
+.sub .list .wallet p{
+	font-size: 0.3rem;
+	margin-top: 0.2rem;
+	margin-left: 0.24rem;
+	color: #333;
+}
+.sub .list .wallet .icon-xiayibu{
+	font-size: 0.4rem;
+	position: absolute;
+	top: 0.06rem;
+	right: 0.4rem;
+	color: #77c5eb;
+}
+.bottom{
+	width: 100%;
+	height: 0.85rem;
+	/* background: blue; */
+	box-shadow: 0.01rem -0.02rem 0.01rem 0.01rem #bffbfb;
+	margin-top: 1rem;
+	border-radius: 0.1rem;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+}
+.bottom .shouye{
+	width: 1.19rem;
+	height: 100%;
+	/* background: #333; */
+	display: flex; 
+	font-size: 0.1rem;
+	flex-direction: column;
+}
+.bottom .shouye p{
+	margin-left: 0.43rem;
+	line-height: 0.1rem;
+}
+.bottom .shouye .guan{
+	margin-left: 0.35rem;
+}
+.bottom .shouye .ding{
+	margin-left: 0.4rem;
+}
+.bottom .shouye .geren{
+	margin-left: 0.25rem;
+}
+.bottom .shouye  .icon-shouye{
+	font-size: 0.7rem;
+}
+.bottom .shouye  .icon-shoucang{
+	font-size: 0.55rem;
+}
+.bottom .shouye i{
+	color: #1296db;
+	font-size: 0.6rem;
+	line-height: 0.7rem;
+	margin-left: 0.25rem;
+}

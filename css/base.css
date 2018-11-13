@@ -1,0 +1,19 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-11-07 11:22:52
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-11-07 12:07:53
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+i{
+	font-style: normal;
+}

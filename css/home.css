@@ -1,0 +1,290 @@
+/*
+* @Author: Lenovo
+* @Date:   2018-11-07 11:09:21
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2018-11-13 08:37:14
+*/
+header{
+	width: 7.5rem;
+	height: 0.8rem;
+	background: #1296db;
+	position: relative;
+}
+input{
+	width: 4.37rem;
+	height: 0.4rem;
+	float: left;
+	margin: 0.2rem 1.52rem;	
+	border-radius: 0.2rem;
+	border: none;
+	background-image: url('../img/search.png');
+	background-size: 0.32rem;
+	background-repeat: no-repeat;
+	background-position: 0.11rem 0.04rem;
+	padding-left: 0.5rem;
+}
+header img{
+	width: 0.32rem;
+	height: 0.32rem;
+	position: absolute;
+	top: 0.25rem;
+	right: 1.7rem;
+	overflow: hidden;
+}
+.banner{
+	width: 7.5rem;
+	height: 4.84rem;
+	/* background: red; */
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	margin-top: 0.24rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.nav{
+	width: 100%;
+	height: 3.57rem;
+	/* background: blue; */
+	margin-top: 0.24rem;
+	padding-top: 0.10rem;
+	padding-left: 0.58rem;
+}
+.nav .map{
+	width: 1.36rem;
+	height: 1.88rem;
+	/* background: green; */
+	float: left;
+	margin-right:0.24rem;
+	margin-bottom: 0.10rem;
+}
+.nav .map .cake1{
+	width: 100%;
+	height: 1.36rem;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0.1rem 0.05rem 0.05rem #baffff;
+}
+.nav .map .cake1 img{
+	width: 100%;
+	height: 100%;
+}
+.nav .map .cake2{
+	width: 100%;
+	height: 0.52rem;
+	/* background: red; */
+	font-size: 0.14rem;
+	text-align: center;
+	padding-top: 0.2rem;
+}
+.adv img{
+	width: 100%;
+	height: 2.3rem;
+	padding-right: 0.24rem;
+	padding-left: 0.24rem;
+	margin-top: 0.24rem;
+} 
+.serchant{
+	width: 7.5rem;
+	height: 2.3rem;
+	/* background: pink; */
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+}
+.serchant .ser{
+	width: 100%;
+	height: 1.4rem;
+	/* background: blue; */
+	position: relative;
+}
+.serchant .chant{
+	width: 100%;
+	height: 0.9rem;
+	/* background: orange; */
+	position: relative;
+	margin-top: 0.1rem;
+}
+.serchant .chant .sort{
+	width: 1.86rem;
+	height: 0.4rem;
+	background: #1295da;
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.27rem;
+	text-align: center;
+	font-size: 0.27rem;
+	color: #fff;
+	padding-top: 0.02rem;
+}
+.serchant .chant .distance{
+	width: 1.86rem;
+	height: 0.4rem;
+	border: 0.01rem solid #1295da;
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 2.62rem;
+	font-size: 0.27rem;
+	text-align: center;
+}
+.serchant .chant .sales{
+	width: 1.86rem;
+	height: 0.4rem;
+	border: 0.01rem solid #1295da;
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 0.1rem;
+	right: 0.26rem;
+	font-size: 0.27rem;
+	text-align: center;
+
+}
+.serchant  .ser .yi{
+	color: #b0f5fb;
+	font-size: 1.3rem;
+	margin-left: 2.68rem;
+}
+.serchant  .ser .reco{
+	color: #333;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 0.5rem;
+	left: 1.70rem;
+	font-weight: lighter;
+}
+.serchant .ser .tuijian{
+	color: #333;
+	position: absolute;
+	font-size: 0.3rem;
+	top: 0.8rem;
+	left: 2.4rem;
+	font-weight: lighter;
+	float: left;
+}
+.list{
+	width: 7.5rem;
+	/* background: pink; */
+	padding-left:  0.24rem;
+	padding-right: 0.24rem;
+	margin-bottom: 0.9rem;
+	overflow-x: hidden;
+}
+.list .list1{
+	width: 100%;
+	height: 2rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	padding-top: 0.32rem;
+	margin-top: 0.24rem;
+	box-shadow: 0 0.05rem 0.1rem 0.02rem #909393;
+}
+.list .list1 .picture{
+	width: 1.22rem;
+	height: 1.37rem;
+	/* background: blue; */
+	margin-left: 0.16rem;
+	float: left;
+	background-image: url('../img/cakejpg.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.list .list1 .character{
+	width: 5.42rem;
+	height: 1.68rem;
+	/* background: yellow; */
+	margin-left: 0.22rem;
+	float: right;
+}
+.list .list1 .character .zi1{
+	width: 1.02rem;
+	height: 0.34rem;
+	/* background: blue; */
+	text-align: center;
+	font-size: 0.32rem;
+	font-weight: bold;
+}
+.list .list1 .character h6{
+	width: 1.96rem;
+	height: 0.22rem;
+	/* background: red; */
+	text-align: center;
+	font-size: 0.20rem;
+	margin-left: 0.32rem;
+	margin-top: 0.05rem;
+	color: #a9a9a9;
+}
+.list .list1 .character .zi2{
+	border: 0.01rem dotted #a9a9a9;
+	width: 3.07rem;
+	margin-left: 0.3rem;
+	margin-top: 0.12rem;
+}
+.list .list1 .character h5{
+	width: 6.18rem;
+	height: 0.16rem;
+	/* background: green; */
+	/* text-align: center; */
+	font-size: 0.18rem;
+	margin-left: 0.5rem;
+	/* margin-top:0.05rem; */
+	color: #a9a9a9;
+}
+.list .list1 .character h4{
+	width: 3.4rem;
+	height: 0.2rem;
+	/* background: pink; */
+	font-size: 0.18rem;
+	text-align: center;
+	margin-left: 0.08rem;
+	margin-top: 0.1rem;
+	color: #a9a9a9;
+}
+.list .list1 .character img{
+	width: 0.24rem;
+	height: 0.24rem;
+	/* background: red; */
+	float: left;
+	margin-top: 0.13rem;
+	margin-left: 0.75rem;
+}
+.list .list1 .character p{
+	font-size: 0.18rem;
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.1rem;
+}
+.bottom{
+	width: 100%;
+	height: 0.85rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	/* margin-left: 0.24rem; */
+	/* margin-right: 0.24rem; */
+	box-shadow: 0 -0.01rem  0.02rem 0.02rem #b0b0b0;
+	border-radius: 0.1rem;
+}
+.bottom .bottom1{
+	width: 1.19rem;
+	height: 1.19rem;
+	/* background: red; */
+	margin-left: 0.45rem;
+	float: left;
+	position: relative;
+}
+.bottom .bottom1 img{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.36rem;
+}
+.bottom .bottom1 p{
+	font-size: 0.18rem;
+	margin-top: 0.52rem;
+	text-align: center;
+
+}
